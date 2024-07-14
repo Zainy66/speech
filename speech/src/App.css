@@ -1,0 +1,44 @@
+#speech{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem auto;
+  width: 300px; 
+  padding: 1.5rem;
+  border-radius: 10px; 
+  background-color: #3f51b5; 
+  color: white;
+  border: none;
+  width: 150px;
+}
+
+
+#speech:hover{
+  background-color: #bb42eb;
+}
+
+h1{
+  text-align: center; 
+  margin: 0 auto; 
+  margin-bottom: 20px;
+  margin-top: 140px;
+}
+
+#output{
+   
+ padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-family: monospace;
+  width: 40%;
+  height: 100px;
+  text-align: center; 
+  margin: 0 auto; 
+}
+
+@media only screen and (max-width: 768px) {
+ 
+  #speech-recognition {
+    width: 90%; 
+  }
+}
